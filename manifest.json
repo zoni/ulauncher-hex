@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Hex",
+  "description": "Search for Elixir/Erlang packages on hex.pm",
+  "developer_name": "Natanael Sirqueira",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "hex_kw",
+      "type": "keyword",
+      "name": "Hex",
+      "description": "Search for packages on hex.pm",
+      "default_value": "hex"
+    }
+  ]
+}
